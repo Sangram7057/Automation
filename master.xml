@@ -14,13 +14,13 @@
   <parameter name="browser" value="chrome"/>
     <classes>
     
-  <!--  <class name="testCases.TC001_AccountRegistrationTest"/> 
+    <class name="testCases.TC001_AccountRegistrationTest"/> 
       <class name="testCases.TC002_LoginTest"/> 
        <class name="testCases.TC_RF_001"/>
          <class name="testCases.TC005_AmazonHomePage"/> 
-          <class name="testCases.TC003_LoginDDT"/> -->
+          <class name="testCases.TC003_LoginDDT"/> 
        <class name="testCases.TC006_ClickOnProductAndAddToCart"/> 
-    <!--    <class name="testCases.TC007_ProductAddedToCart"/>  -->
+        <class name="testCases.TC007_ProductAddedToCart"/>  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
