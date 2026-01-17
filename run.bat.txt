@@ -1,0 +1,1 @@
+cd C:\Users\HP\eclipse-workspace\Automation>mvn test

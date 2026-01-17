@@ -1,0 +1,17 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AmazonHomePage extends BasePage {
+
+	public AmazonHomePage(WebDriver driver) {
+		
+		super(driver);
+	}
+	
+	
+	
+	
+}

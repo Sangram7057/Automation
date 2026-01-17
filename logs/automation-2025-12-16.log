@@ -1,0 +1,42 @@
+21:27:25.753 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+21:27:25.779 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 143.0.7499.42 found in cache
+21:27:25.780 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+21:28:21.960 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\Automation\master.xml"
+21:28:22.275 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\Automation\master.xml
+
+21:28:22.550 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+21:28:22.986 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=143 in cache (valid until 22:25:45 16/12/2025 IST)
+21:28:22.987 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome143=143.0.7499.42 in cache (valid until 21:25:45 17/12/2025 IST)
+21:28:22.989 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+21:28:23.015 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 143.0.7499.42 found in cache
+21:28:23.016 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+21:28:24.440 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+21:28:34.877 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+21:28:35.799 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+21:28:41.792 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+21:28:42.246 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+21:28:42.270 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=143 in cache (valid until 22:25:45 16/12/2025 IST)
+21:28:42.272 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome143=143.0.7499.42 in cache (valid until 21:25:45 17/12/2025 IST)
+21:28:42.273 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+21:28:42.290 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 143.0.7499.42 found in cache
+21:28:42.292 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+21:34:33.081 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\Automation\master.xml"
+21:34:33.548 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\Automation\master.xml
+
+21:34:33.909 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+21:34:34.419 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=143 in cache (valid until 22:25:45 16/12/2025 IST)
+21:34:34.421 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome143=143.0.7499.42 in cache (valid until 21:25:45 17/12/2025 IST)
+21:34:34.423 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+21:34:34.492 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 143.0.7499.42 found in cache
+21:34:34.496 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\143.0.7499.42\chromedriver.exe
+21:34:37.002 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+21:34:46.433 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+21:34:47.186 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+21:34:52.689 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+21:34:53.114 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+21:34:53.138 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=143 in cache (valid until 22:25:45 16/12/2025 IST)
+21:34:53.141 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome143=143.0.7499.42 in cache (valid until 21:25:45 17/12/2025 IST)
+21:34:53.141 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 143.0.7499.42 (resolved driver for Chrome 143)
+21:34:53.157 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 143.0.7499.42 found in cache

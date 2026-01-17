@@ -1,0 +1,30 @@
+18:10:18.045 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
+18:10:18.052 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 releasing valid endpoint
+18:10:18.052 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 releasing endpoint
+18:10:18.052 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+18:10:18.053 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+18:10:18.054 [main] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector - Detecting chrome version using online commands.properties
+18:10:18.060 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Running command on the shell: [powershell.exe, -Command, (Get-Item "${env:PROGRAMFILES}\Google\Chrome\Application\chrome.exe").VersionInfo.ProductVersion]
+18:10:18.935 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome141=141.0.7390.122 in cache (valid until 13:21:03 06/11/2025 IST)
+18:10:18.935 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+18:10:18.938 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome=141 in cache (valid until 19:10:18 05/11/2025 IST)
+18:10:18.961 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 141.0.7390.122 found in cache
+18:10:18.964 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+18:10:21.868 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+18:10:27.199 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+18:10:28.263 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+18:10:33.531 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+18:10:33.944 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+18:10:33.991 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=141 in cache (valid until 19:10:18 05/11/2025 IST)
+18:10:33.992 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome141=141.0.7390.122 in cache (valid until 13:21:03 06/11/2025 IST)
+18:10:33.993 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+18:10:34.019 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 141.0.7390.122 found in cache
+18:10:34.021 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+18:10:35.351 [main] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest *****
+18:10:42.328 [main] INFO  testCases.TC002_LoginTest - **** Finished TC002_LoginTest ****
+18:10:42.598 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+18:10:42.631 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=141 in cache (valid until 19:10:18 05/11/2025 IST)
+18:10:42.633 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome141=141.0.7390.122 in cache (valid until 13:21:03 06/11/2025 IST)
+18:10:42.634 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+18:10:42.664 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 141.0.7390.122 found in cache
+18:10:42.666 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
