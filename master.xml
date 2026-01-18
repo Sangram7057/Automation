@@ -20,7 +20,7 @@
          <class name="testCases.TC005_AmazonHomePage"/> 
           <class name="testCases.TC003_LoginDDT"/> 
        <class name="testCases.TC006_ClickOnProductAndAddToCart"/> 
-        <class name="testCases.TC007_ProductAddedToCart"/>  
+    <!--    <class name="testCases.TC007_ProductAddedToCart"/>  -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

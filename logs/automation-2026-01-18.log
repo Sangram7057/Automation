@@ -1,0 +1,38 @@
+16:59:06.916 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000002 releasing valid endpoint
+16:59:06.920 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 releasing endpoint
+16:59:06.920 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connection http-outgoing-1 can be kept alive for 3 MINUTES
+16:59:06.920 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connection released [route: {s}->[https://googlechromelabs.github.io:443]][total available: 2; route allocated: 1 of 5; total allocated: 2 of 25]
+16:59:07.121 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+16:59:07.125 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
+16:59:07.128 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
+16:59:07.175 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+16:59:07.177 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
+16:59:09.448 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+16:59:12.079 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+16:59:17.628 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+16:59:23.018 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+16:59:23.321 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+16:59:23.339 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
+16:59:23.340 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
+16:59:23.340 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+16:59:23.356 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+16:59:23.358 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
+16:59:25.225 [main] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest *****
+16:59:33.579 [main] INFO  testCases.TC002_LoginTest - **** Finished TC002_LoginTest ****
+16:59:33.743 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+16:59:33.765 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
+16:59:33.766 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
+16:59:33.766 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+16:59:33.789 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+16:59:33.792 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
+16:59:35.081 [main] INFO  testCases.TC_RF_001 - ******* Started TC_RF_001_Account_Registration ********
+16:59:36.666 [main] INFO  testCases.TC_RF_001 - Providing customer details....
+16:59:38.484 [main] INFO  testCases.TC_RF_001 - Validating expected message...
+16:59:38.520 [main] INFO  testCases.TC_RF_001 - ****** Finished TC_RF_001_Account_Registration ******
+16:59:38.642 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+16:59:38.655 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
+16:59:38.656 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
+16:59:38.656 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+16:59:38.671 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+16:59:38.672 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
+16:59:39.484 [main] INFO  testCases.TC005_AmazonHomePage - ***** Starting TC005_AmazonHomaPage *****

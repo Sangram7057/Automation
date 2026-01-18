@@ -1,45 +1,30 @@
-20:46:58.065 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:04:47 18/01/2026 IST)
-20:46:58.074 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
-20:46:58.105 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
-20:46:58.107 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
-20:46:59.645 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Starting TC006_ClickOnProductAndAddToCart *****
-20:47:00.489 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing customer details....
-20:47:06.291 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing product details and Add to cart....
-20:56:47.215 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\AppData\Local\Temp\testng-eclipse-2095233114\testng-customsuite.xml"
-20:56:47.551 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-20:56:47.555 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-20:56:47.558 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.558 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.559 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.560 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.561 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.562 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.579 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
-20:56:47.588 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
-20:56:47.591 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.592 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-20:56:47.593 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.593 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.595 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.595 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.597 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.598 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.601 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.601 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.604 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.604 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.605 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.605 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.607 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.608 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.611 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.611 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.612 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-20:56:47.612 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-20:56:47.624 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\HP\AppData\Local\Temp\testng-eclipse-2095233114\testng-customsuite.xml
-
-20:56:47.652 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
-20:56:47.917 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@5ae81e1: 111 ms
-20:56:47.943 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@138fe6ec: 25 ms
-20:56:47.968 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@388ffbc2: 23 ms
+23:09:11.646 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
+23:09:11.650 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 releasing valid endpoint
+23:09:11.650 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 releasing endpoint
+23:09:11.650 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+23:09:11.650 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection released [route: {s}->[https://raw.githubusercontent.com:443]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+23:09:11.651 [main] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector - Detecting chrome version using online commands.properties
+23:09:11.656 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Running command on the shell: [powershell.exe, -Command, (Get-Item "${env:PROGRAMFILES}\Google\Chrome\Application\chrome.exe").VersionInfo.ProductVersion]
+23:09:12.230 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:04:47 18/01/2026 IST)
+23:09:12.231 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+23:09:12.232 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome=144 in cache (valid until 00:09:12 18/01/2026 IST)
+23:09:12.249 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+23:09:12.250 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
+23:09:13.672 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+23:09:20.008 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details....
+23:09:20.736 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+23:09:26.012 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+23:09:26.389 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+23:09:26.412 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 00:09:12 18/01/2026 IST)
+23:09:26.412 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:04:47 18/01/2026 IST)
+23:09:26.413 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+23:09:26.421 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+23:09:26.421 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
+23:09:27.353 [main] INFO  testCases.TC002_LoginTest - **** Starting TC002_LoginTest *****
+23:09:31.015 [main] INFO  testCases.TC002_LoginTest - **** Finished TC002_LoginTest ****
+23:09:31.225 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+23:09:31.249 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 00:09:12 18/01/2026 IST)
+23:09:31.250 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:04:47 18/01/2026 IST)
+23:09:31.250 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+23:09:31.260 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+23:09:31.261 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe

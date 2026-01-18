@@ -1,44 +1,26 @@
-20:56:47.986 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7df587ef: 18 ms
-20:56:48.009 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@758f4f03: 12 ms
-20:56:48.009 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@182f1e9a: 0 ms
-20:57:21.686 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\Automation\master.xml"
-20:57:21.971 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\HP\eclipse-workspace\Automation\master.xml
-
-20:57:22.261 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
-20:57:22.851 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 21:42:35 17/01/2026 IST)
-20:57:22.853 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:04:47 18/01/2026 IST)
-20:57:22.855 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
-20:57:22.895 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
-20:57:22.898 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
-20:57:24.447 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Starting TC006_ClickOnProductAndAddToCart *****
-20:57:29.515 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing customer details....
-20:57:41.142 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing product details and Add to cart....
-20:59:00.422 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\Automation\master.xml"
-20:59:00.778 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\HP\eclipse-workspace\Automation\master.xml
-
-20:59:01.129 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
-20:59:01.669 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 21:42:35 17/01/2026 IST)
-20:59:01.671 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:04:47 18/01/2026 IST)
-20:59:01.673 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
-20:59:01.709 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
-20:59:01.711 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
-20:59:07.486 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Starting TC006_ClickOnProductAndAddToCart *****
-20:59:13.907 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing customer details....
-20:59:22.394 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing product details and Add to cart....
-21:01:01.166 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\Automation\master.xml"
-21:01:01.479 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\HP\eclipse-workspace\Automation\master.xml
-
-21:01:01.747 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
-21:01:02.277 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 21:42:35 17/01/2026 IST)
-21:01:02.279 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:04:47 18/01/2026 IST)
-21:01:02.281 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
-21:01:02.305 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
-21:01:02.307 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
-21:01:03.833 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Starting TC006_ClickOnProductAndAddToCart *****
-21:01:05.630 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing customer details....
-21:01:10.497 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing product details and Add to cart....
-21:01:24.236 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Sucessfully click on add to cart....
-21:01:24.236 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Finished TC006_ClickOnProductAndAddToCart *****
+16:59:42.822 [main] INFO  testCases.TC005_AmazonHomePage - Providing customer details....
+16:59:48.788 [main] INFO  testCases.TC005_AmazonHomePage - Validating HomaPage Header...
+16:59:49.024 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+16:59:49.040 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
+16:59:49.042 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
+16:59:49.042 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+16:59:49.055 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+16:59:49.058 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
+16:59:50.701 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+16:59:50.724 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
+16:59:50.726 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
+16:59:50.726 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+16:59:50.744 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+16:59:50.746 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
+16:59:51.591 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Starting TC006_ClickOnProductAndAddToCart *****
+16:59:55.085 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing customer details....
+17:00:06.577 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing product details and Add to cart....
+17:00:13.786 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Sucessfully click on add to cart....
+17:00:13.855 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Finished TC006_ClickOnProductAndAddToCart *****
+17:00:14.221 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
+17:00:14.239 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
+17:00:14.240 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
+17:00:14.240 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
+17:00:14.254 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
+17:00:14.255 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
+17:00:15.300 [main] INFO  testCases.TC007_ProductAddedToCart - ***** Starting TC007_ProductAddedToCart *****
