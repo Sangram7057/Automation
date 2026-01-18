@@ -1,26 +1,3 @@
-16:59:42.822 [main] INFO  testCases.TC005_AmazonHomePage - Providing customer details....
-16:59:48.788 [main] INFO  testCases.TC005_AmazonHomePage - Validating HomaPage Header...
-16:59:49.024 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
-16:59:49.040 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
-16:59:49.042 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
-16:59:49.042 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
-16:59:49.055 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
-16:59:49.058 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
-16:59:50.701 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
-16:59:50.724 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
-16:59:50.726 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
-16:59:50.726 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
-16:59:50.744 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
-16:59:50.746 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
-16:59:51.591 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Starting TC006_ClickOnProductAndAddToCart *****
-16:59:55.085 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing customer details....
-17:00:06.577 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing product details and Add to cart....
-17:00:13.786 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Sucessfully click on add to cart....
-17:00:13.855 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Finished TC006_ClickOnProductAndAddToCart *****
-17:00:14.221 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 6.3.2
-17:00:14.239 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=144 in cache (valid until 17:59:07 18/01/2026 IST)
-17:00:14.240 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome144=144.0.7559.31 in cache (valid until 16:59:07 19/01/2026 IST)
-17:00:14.240 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.31 (resolved driver for Chrome 144)
-17:00:14.254 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 144.0.7559.31 found in cache
-17:00:14.255 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\HP\.cache\selenium\chromedriver\win64\144.0.7559.31\chromedriver.exe
-17:00:15.300 [main] INFO  testCases.TC007_ProductAddedToCart - ***** Starting TC007_ProductAddedToCart *****
+17:05:43.748 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Providing product details and Add to cart....
+17:05:46.616 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - Sucessfully click on add to cart....
+17:05:46.616 [main] INFO  testCases.TC006_ClickOnProductAndAddToCart - ***** Finished TC006_ClickOnProductAndAddToCart *****
