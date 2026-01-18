@@ -15,7 +15,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -30,108 +30,125 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 
-public static WebDriver driver;
-public Properties p;
+    public static WebDriver driver;
+    public Properties p;
+    public Logger logger;    // log4j2
 
- public Logger logger;    //log4j2
-	
-	@BeforeClass(groups={"Sanity", "Regression", "Master"})
-	@Parameters({"os","browser"})
-	public void setup(String os, String br) throws IOException {
-		
-		//loading config.properties
-		FileReader file = new FileReader("./src//test//resources//config.properties");
-		p = new Properties();
-		p.load(file);
-		
-		logger = LogManager.getLogger(this.getClass());
-		
-		if(p.getProperty("execution_env").equalsIgnoreCase("remote")) {
-			
-			DesiredCapabilities capabilities = new DesiredCapabilities();
-			
-			// os
-			if(os.equalsIgnoreCase("windows")) {
-				
-				capabilities.setPlatform(Platform.WIN11);
-			}
-			else if (os.equalsIgnoreCase("mac")) {
-				
-				capabilities.setPlatform(Platform.MAC);
-			}
-			else {
-				System.out.println("No matching os");
-				return;
-			}
-			// browser
-			switch(br.toLowerCase()) {
-			
-			case "chrome" : capabilities.setBrowserName("chrome"); break;
-			case "edge" : capabilities.setBrowserName("MicrosoftEdge"); break;
-			default: System.out.println("No matching browser"); return;
-			}
-			
-			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
-			
-		}
-		if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
-		
-		switch(br.toLowerCase()) {
-		
-		case "chrome" : WebDriverManager.chromedriver().setup();
-		                driver = new ChromeDriver();
-		                break;
-		case "edge" :   WebDriverManager.edgedriver().setup();              
-		                driver = new EdgeDriver();
-		                break;
-		case "firefox" : WebDriverManager.firefoxdriver().setup();
-                        driver = new FirefoxDriver();
-                        break;
-        default : System.out.println("Invalid browser name...");
-        return;
-		  }
-		}
-		
-		driver.manage().deleteAllCookies();
+    @BeforeClass(groups={"Sanity", "Regression", "Master"})
+    @Parameters({"os","browser"})
+    public void setup(String os, String br) throws IOException {
+
+        // Load config.properties
+        FileReader file = new FileReader("./src/test/resources/config.properties");
+        p = new Properties();
+        p.load(file);
+
+        logger = LogManager.getLogger(this.getClass());
+
+        // ================= REMOTE EXECUTION =================
+        if(p.getProperty("execution_env").equalsIgnoreCase("remote")) {
+
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+
+            // OS
+            if(os.equalsIgnoreCase("windows")) {
+                capabilities.setPlatform(Platform.WIN11);
+            }
+            else if (os.equalsIgnoreCase("mac")) {
+                capabilities.setPlatform(Platform.MAC);
+            }
+            else {
+                System.out.println("No matching OS");
+                return;
+            }
+
+            // Browser
+            switch(br.toLowerCase()) {
+                case "chrome": capabilities.setBrowserName("chrome"); break;
+                case "edge": capabilities.setBrowserName("MicrosoftEdge"); break;
+                default: System.out.println("No matching browser"); return;
+            }
+
+            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+        }
+
+        // ================= LOCAL EXECUTION =================
+        if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
+
+            switch(br.toLowerCase()) {
+
+                case "chrome":
+                    WebDriverManager.chromedriver().setup();
+
+                    ChromeOptions options = new ChromeOptions();
+
+                    // ✅ Headless execution from config.properties
+                    if(p.getProperty("headless").equalsIgnoreCase("true")) {
+                        options.addArguments("--headless=new");
+                        options.addArguments("--disable-gpu");
+                        options.addArguments("--window-size=1920,1080");
+                    }
+
+                    driver = new ChromeDriver(options);
+                    break;
+
+                case "edge":
+                    WebDriverManager.edgedriver().setup();
+                    driver = new EdgeDriver();
+                    break;
+
+                case "firefox":
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+
+                default:
+                    System.out.println("Invalid browser name...");
+                    return;
+            }
+        }
+
+        driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        
-       // driver.get(p.getProperty("appUrl2"));  //reading url from properties file
-        driver.manage().window().maximize();
-		
-	}
-	@AfterClass(groups={"Sanity", "Regression", "Master"})
-	public void teardown() {
-		driver.quit();
-	}
-	
+
+        // Maximize only if not headless
+        if(!p.getProperty("headless").equalsIgnoreCase("true")) {
+            driver.manage().window().maximize();
+        }
+    }
+
+    @AfterClass(groups={"Sanity", "Regression", "Master"})
+    public void teardown() {
+        driver.quit();
+    }
+
     public String randomString() {
-		
-		String generatedString = RandomStringUtils.randomAlphabetic(5);
-		return generatedString;
-	}
+        return RandomStringUtils.randomAlphabetic(5);
+    }
+
     public String randomNumber() {
-		
-		String generatednumber = RandomStringUtils.randomNumeric(10);
-		return generatednumber;
-	}
+        return RandomStringUtils.randomNumeric(10);
+    }
+
     public String randomAlphaNumeric() {
-		
-    	String generatedString = RandomStringUtils.randomAlphabetic(5);
-		String generatednumber = RandomStringUtils.randomNumeric(10);
-		return generatedString + "@" +generatednumber;
-	}
+        String generatedString = RandomStringUtils.randomAlphabetic(5);
+        String generatedNumber = RandomStringUtils.randomNumeric(10);
+        return generatedString + "@" + generatedNumber;
+    }
+
     public String captureScreen(String tname) throws IOException {
-    	
-    	String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-    	
-    	TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-    	File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-    	
-    	String targetFilePath = System.getProperty("user.dir")+"\\screenshots\\" + tname + " " + timeStamp + ".png";
-    	File tatargetFile = new File(targetFilePath);
-    	
-    	sourceFile.renameTo(tatargetFile);
-    	return targetFilePath;
-    	
+
+        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+
+        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+
+        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" 
+                                + tname + "_" + timeStamp + ".png";
+
+        File targetFile = new File(targetFilePath);
+        sourceFile.renameTo(targetFile);
+
+        return targetFilePath;
     }
 }
